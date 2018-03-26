@@ -23,16 +23,17 @@ If you want to walk through all the steps make sure to remove the "positives.vec
 - annotations
 - classifier
 
-Create positive samples using this command
+### Create positive samples using this command
 opencv_createsamples -img wally.jpg -bg negatives.txt -info annotations/annotations.lst -pngoutput info -maxxangle 0.5 -maxyangle 0.5 -maxzangle 0.5 -num 1300
 
-Create the positive sample vector file
+### Create the positive sample vector file
 opencv_createsamples -info annotations/annotations.lst -num 1300 -w 25 -h 25 -vec positives.vec
 
-Train the Haar Cascade classifier
+### Train the Haar Cascade classifier
 opencv_traincascade -data classifier -vec positives.vec -bg negatives.txt -numPos 1200 -numNeg 600 -numStages 10 -w 25 -h 25
 
-Run the python scripts!
+Modify the path variables in the Python scripts and run them!
+
 
 
 
