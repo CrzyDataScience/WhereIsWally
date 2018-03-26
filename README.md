@@ -1,6 +1,6 @@
 # Where is Wally/Waldo
 This repository contains all the example code for the Crazy Data Science - Where is Wally / Waldo project.
-(https://www.youtube.com/watch?v=jtiS8V4iQS4)
+(https://www.youtube.com/watch?v=wKt3EwHgRtM)
 
 All of the scripts and images can be found in the "code" folder.
 Keep in mind that you need to have OpenCV compiled and working with Python bindings if you plan to run the example Python scripts.
